@@ -1,0 +1,13 @@
+venv/
+.idea/
+__pycache__/
+*.pyc
+
+.pytest_cache/
+cover/
+.coverage
+.coverage.*
+.cache
+
+database.ini
+

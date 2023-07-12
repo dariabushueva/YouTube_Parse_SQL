@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "youtube-parser-sql"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+packages = [{include = "youtube_parser_sql"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+google-api-python-client = "^2.92.0"
+psycopg2 = "^2.9.6"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
